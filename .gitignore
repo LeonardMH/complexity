@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Editor related files
+*.swp
+
 # C extensions
 *.so
 
