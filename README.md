@@ -1,20 +1,24 @@
+# What is complexity
+
+[![Build Status](https://travis-ci.org/LeonardMH/complexity.svg?branch=master)](https://travis-ci.org/LeonardMH/complexity)
+
 [lizard](https://github.com/terryyin/lizard) is a simple code complexity
 analyzer that doesn't care about header files or imports. It can deal
 with:
 
-	- C/C++ (works with C++14)
-	- Java
-	- JavaScript
-	- Objective C.
-	- Python
-	- TTCN-3
+- C/C++ (works with C++14)
+- Java
+- JavaScript
+- Objective C.
+- Python
+- TTCN-3
 
 It counts:
 
-	- the nloc (lines of code without comments),
-	- CCN (cyclomatic complexity number),
-	- token count of functions.
-	- parameter count of functions.
+- the nloc (lines of code without comments),
+- CCN (cyclomatic complexity number),
+- token count of functions.
+- parameter count of functions.
 
 This tool provides a simple wrapper that makes lizard easier to use
 in the following contexts. First, the `lizardpp` provides a simplified
